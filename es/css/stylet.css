@@ -1,0 +1,576 @@
+/* STYLE TABLET */
+
+body{
+  font-family: 'Muli', sans-serif;
+  overflow: hidden;
+}
+
+.main{
+  position: fixed;
+  background-color: rgba(40,34,32,1);
+  width: 100%;
+  height: 100px;
+  border: 0px solid #FFF;
+  z-index: 9;
+  border-radius: 0px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #FFF;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #FFF;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0px solid #ddd;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background: rgba(0,0,0,0);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: #00afa9; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(left top, #00afa9, #005cb8); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right, #00afa9, #005cb8); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right, #00afa9, #005cb8); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right, #00afa9, #005cb8); /* Standard syntax */
+}
+
+.navbar-brand{
+  height: 30px;
+}
+
+.navbar-nav {
+    margin: 50px -15px 0;
+}
+
+.navbar-brand > img {
+    display: block;
+    width: 95%;
+    margin-top: -10px;
+    padding-left: 15px;
+}
+
+.navbar-toggle{
+  margin-top: 53px;
+  margin-bottom: 24px;
+  padding-right: 15px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    margin-top: -15px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 32px;
+    height: 4px;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-collapse{
+  border-width: 0px;
+  background-color: rgba(40,34,32,1);
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.nav li:hover{
+  background: #00afa9; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(left top, #00afa9, #005cb8); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right, #00afa9, #005cb8); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right, #00afa9, #005cb8); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right, #00afa9, #005cb8); /* Standard syntax */
+}
+
+/* CONTENT */
+
+#contenido{
+  background-image: url(../img/bg.jpg);
+  background-size: 300%;
+  min-height: 1024px;
+  background-position-x: 50%;
+  position: fixed;
+}
+
+.inmiddle{
+  margin-top: 60%;
+  color: #FFF;
+  background-color: rgba(40,34,32,0.8);
+}
+
+#maincont{
+  opacity: 1;
+  margin-top: 26%;
+  padding: 3% 0;
+}
+
+#maincont h2{
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #00afa9;
+  line-height: 50px;
+  margin-top: 0px;
+  width: 50%;
+}
+
+#maincont p{
+  width: 500px;
+}
+
+#nosotros{
+  opacity: 0;
+  margin-top: -29%;
+  padding: 3% 0;
+}
+
+#nosotros h2{
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #00afa9;
+  line-height: 50px;
+  margin-top: 0px;
+  width: 50%;
+}
+
+#nosotros ul{
+  color: #FFF;
+  margin: 8%;
+  font-size: 20px;
+  text-align: left;
+  padding: 0 14%;
+}
+
+#nosotros li{
+    color: #00afa9;
+}
+
+#nosotros li span{
+    color: #FFF;
+}
+
+#equipo{
+  opacity: 0;
+  margin-top: -40%;
+  z-index: 4;
+}
+
+#associates{
+  display: block;
+}
+
+ul#associates{
+  list-style-type: none;
+  color: #FFF;
+  text-align: center;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+}
+
+ul#associates li:first-child{
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}
+
+ul#associates li{
+  border-bottom: 1px solid #FFF;
+  padding: 10px 0px;
+  color: white;
+}
+
+ul#associates li:hover{
+  background: #00afa9; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #00afa9, #005cb8); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #00afa9, #005cb8); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #00afa9, #005cb8); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #00afa9, #005cb8); /* Standard syntax */
+}
+
+ul#associates li:last-child{
+  border-bottom: 1px solid #FFF;
+}
+
+#associates li a{
+  color: #FFF;
+}
+
+#associates li a:hover{
+  text-decoration: none !important;
+}
+
+.they{
+  color: #FFF;
+}
+
+.activated{
+  background: #00afa9; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #00afa9, #005cb8); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #00afa9, #005cb8); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #00afa9, #005cb8); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #00afa9, #005cb8); /* Standard syntax */
+}
+
+.nonactive{
+  background: rgba(0,0,0,0);
+}
+
+#fbellon{
+  margin-top: -120px;
+}
+
+#jnajul{
+  margin-top: -100px;
+}
+
+#ntobler{
+  margin-top: -100px;
+}
+
+#equipo h2{
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #00afa9;
+  line-height: 50px;
+  margin-top: 0px;
+  width: 50%;
+  font-size: 24px
+}
+
+#equipo p{
+  width: 60%;
+}
+
+#equipo .og-fullimg {
+    top: 3px;
+}
+
+#equipo .og-details {
+    padding: 0 10px;
+}
+
+#inversion{
+  opacity: 0;
+  margin-top: -46%;
+}
+
+#inversion h2{
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #00afa9;
+  line-height: 50px;
+  margin-top: 0px;
+  width: 50%;
+  font-size: 24px
+}
+
+/**************************/
+/********* SLIDER *********/
+/**************************/
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+  height: 325px !important;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  text-align: left;
+  line-height: 24px;
+  color: #FFF;
+}
+
+#slider p{
+  padding: 0 60px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+
+/* END SLIDER */
+
+#contacto{
+  opacity: 0;
+  margin-top: -50%;
+  padding: 20px 30px;
+  z-index: 3;
+}
+
+.postform{
+  margin-top: 20px;
+  color: #FFF;
+  border-top: 1px solid #FFF;
+  width: 330px;
+  padding-top: 20px;
+}
+
+/* GRID */
+.maingrid{
+position: fixed;
+background-color: rgba(40,34,32,1);
+width: 100%;
+height: 440px;
+border: 0px solid #FFF;
+z-index: 9;
+}
+
+/* FORM */
+
+#contacto h2{
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #00afa9;
+  line-height: 50px;
+  margin-top: 0px;
+  width: 80%;
+}
+
+#contacto form{
+  text-align: center;
+}
+
+#contacto ul{
+  color: #FFF;
+  list-style-type: none;
+}
+
+#contacto input{
+  color: #333;
+  margin: 10px 0 0px 21px;
+}
+
+#contacto textarea{
+  color: #333;
+  margin: 10px 0 0px 31px;
+}
+
+#contacto .summit{
+  padding: 5px 20px;
+  background: #00afa9; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(left top, #00afa9, #005cb8); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right, #00afa9, #005cb8); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right, #00afa9, #005cb8); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right, #00afa9, #005cb8); /* Standard syntax */
+  border: 0px solid #FFF;
+  color: #FFF;
+  margin: 10px 0;
+}
+
+#contacto .summit:hover{
+  background-color: #00756f;
+}
+
+#mail{
+  margin: 10px 0px 0px 40px !important;
+}
+
+#message span{
+  line-height: 8px;
+  margin: 12px 0 0 5px;
+  position: absolute;
+}
+
+#contacto textarea{
+  color: #333;
+  margin: 10px 0 0px 89px;
+}
+
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+    text-align: center;
+    font-weight: bold;
+}
+
+.progress-bar{
+  background-color: #00afa9;
+}
+
+.navbar-nav > li > .dropdown-menu{
+  width: 100%;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #282220;
+  color: #FFF;
+  border: 0px solid #FFF;
+}
+
+.dropdown-menu > li > a{
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 36px;
+}
+
+.dropdown-menu > li > a:hover{
+  background: #00afa9;
+  background: -webkit-linear-gradient(left top,#00afa9,#005cb8);
+  background: -o-linear-gradient(bottom right,#00afa9,#005cb8);
+  background: -moz-linear-gradient(bottom right,#00afa9,#005cb8);
+  background: linear-gradient(to bottom right,#00afa9,#005cb8);
+  color: #FFF;
+}
+
+
+/*****_*_*_*_*_ MEDIA QUERIES ****_*_*_*_*_*/
+
+@media (max-width: 877px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+   .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+       width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+    }
+}
+
+@media (max-width: 800px) {
+
+#maincont{
+  margin-top: 55%;
+}
+
+#nosotros{
+  margin-top: -50%;
+}
+
+#equipo{
+  margin-top: -78%;
+}
+
+#inversion{
+  margin-top: -62%;
+}
+
+#contacto{
+  margin-top: -64%;
+}
+
+
+}

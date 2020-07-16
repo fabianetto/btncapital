@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="72.119px" height="68.887px" viewBox="0 0 72.119 68.887" enable-background="new 0 0 72.119 68.887" xml:space="preserve">
+<g id="XMLID_2_">
+	<linearGradient id="XMLID_77_" gradientUnits="userSpaceOnUse" x1="17.1054" y1="49.0469" x2="72.1185" y2="49.0469">
+		<stop  offset="0" style="stop-color:#00B8B5"/>
+		<stop  offset="0.2537" style="stop-color:#00B5B5"/>
+		<stop  offset="0.4549" style="stop-color:#00ABB4"/>
+		<stop  offset="0.6381" style="stop-color:#009AB3"/>
+		<stop  offset="0.8106" style="stop-color:#0083B1"/>
+		<stop  offset="0.9741" style="stop-color:#0064AE"/>
+		<stop  offset="0.9949" style="stop-color:#0060AE"/>
+	</linearGradient>
+	<path id="XMLID_72_" fill="url(#XMLID_77_)" d="M17.105,68.787c10.521-22.595,31.83-36.872,55.013-39.48
+		C61.939,51.103,40.984,66.134,17.105,68.787z"/>
+	<linearGradient id="XMLID_78_" gradientUnits="userSpaceOnUse" x1="12.8712" y1="0.3768" x2="12.8712" y2="68.8874">
+		<stop  offset="0" style="stop-color:#00B8B5"/>
+		<stop  offset="0.2537" style="stop-color:#00B5B5"/>
+		<stop  offset="0.4549" style="stop-color:#00ABB4"/>
+		<stop  offset="0.6381" style="stop-color:#009AB3"/>
+		<stop  offset="0.8106" style="stop-color:#0083B1"/>
+		<stop  offset="0.9741" style="stop-color:#0064AE"/>
+		<stop  offset="0.9949" style="stop-color:#0060AE"/>
+	</linearGradient>
+	<path id="XMLID_71_" fill="url(#XMLID_78_)" d="M16.506,68.855c-0.097,0.008-0.187,0.023-0.28,0.032
+		c-0.53-0.734-1.069-1.455-1.628-2.164C2.478,48.358-0.136,25.167,7.477,4.586C8.224,3.21,8.924,1.805,9.575,0.379l0.002-0.002
+		c0.337,0.467,0.676,0.928,1.023,1.386C23.593,20.952,26.654,46.232,16.506,68.855z"/>
+	<linearGradient id="XMLID_79_" gradientUnits="userSpaceOnUse" x1="72.1108" y1="14.3975" x2="10.0936" y2="14.3975">
+		<stop  offset="0" style="stop-color:#00B8B5"/>
+		<stop  offset="0.2537" style="stop-color:#00B5B5"/>
+		<stop  offset="0.4549" style="stop-color:#00ABB4"/>
+		<stop  offset="0.6381" style="stop-color:#009AB3"/>
+		<stop  offset="0.8106" style="stop-color:#0083B1"/>
+		<stop  offset="0.9741" style="stop-color:#0064AE"/>
+		<stop  offset="0.9949" style="stop-color:#0060AE"/>
+	</linearGradient>
+	<path id="XMLID_3_" fill="url(#XMLID_79_)" d="M44.79,6.185c11.286,5.129,20.527,12.934,27.321,22.321
+		c-11.541,1.059-23.499-0.766-34.785-5.895C26.539,17.709,17.623,10.364,10.924,1.527c-0.27-0.404-0.552-0.803-0.831-1.203
+		c0.483-0.045,0.97-0.1,1.451-0.157C22.609-0.604,34.005,1.284,44.79,6.185z"/>
+</g>
+</svg>
